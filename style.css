@@ -1,3 +1,5 @@
+Home
+
 body {
     background-color:#ecbfcc;
     color:#5C5148;
@@ -58,6 +60,7 @@ p{
 .foto-nana {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .foto-profil {
@@ -65,7 +68,7 @@ p{
     height: 200px;
     padding: 6px;
     border: 4px solid #D96C9D;
-    margin: 30px;
+    margin: 30px auto;
 }
 
 @keyframes fadeIn {
@@ -123,8 +126,388 @@ p{
     color: #71805A;
 }
 
+.html {
+    text-align: center;
+    font-size: 14px;
+}
+
+.link {
+   text-align: center;
+    font-size: 14px;
+}
+
+About
+
+body {
+    background-color:#ecbfcc;
+    color:#5C5148;
+    font-family: arial, sans-serif;
+    margin: 0;
+}
+
+#judul-about{
+    color: #D96C9D;
+    margin: 38px;
+    text-align: center;
+    margin: 30px 10px;
+}
+
+.profil-chika {
+    background-color: #FFF9F3;
+    width: 800px;
+    margin: 30px;
+    padding: 35px;
+    border: 2px solid #a8b88a;
+}
+
+.profil-chika h2 {
+    color: #D96C9D;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.profil-chika p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+profil-chika table{
+    width: 200px;
+    margin: 20px;
+}
+
+data diri th,
+td {
+    padding: 8px;
+    border: 1px solid #a8b88a;
+}
+
+data diri th {
+    background-color: #a8b88a;
+}
+
+.profil-chika li:hover{
+    color: #D96C9D;
+    transition: 0.3s;
+}
+
+.hobi,
+.pendidikan {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 20px;
+}
+
+.hobi li,
+.pendidikan li {
+    list-style: none;
+    background-color: #F9E1E8;
+    color: #71805A;
+    padding: 15px 20px;
+    border: 2px solid #a8b88a;
+    text-align: center;
+}
+
+.hobi li:hover,
+.pendidikan li:hover {
+    background-color: #D96C9D;
+    color: white;
+    transition: 0.3s;
+}
+
+.kembali {
+    text-align: center;
+    font-size: 14px;
+}
+
 .link {
     text-align: center;
     font-size: 14px;
+}
+
+Project
+
+body {
+    background-color:#ecbfcc;
+    color:#5C5148;
+    font-family: arial, sans-serif;
+    margin: 0;
+}
+
+#judul-project {
+    color: #D96C9D;
+    font-size: 38px;
+    text-align: center;
+    margin: 30px 10px;
+}
+
+.project-chika {
+    background-color: #FFF9F3;
+    width: 800px;
+    margin: 30px;
+    padding: 35px;
+    border: 2px solid #a8b88a;
+}
+
+.project-chika h2 {
+    color: #D96C9D;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.project-chika h3 {
+    color: #71805A;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-chika p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.foto-project {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 30px 0;
+    padding: 15px;
+    border-bottom: 2px solid #a8b88a;
+}
+
+.foto-project img {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    padding: 5px;
+    border: 3px solid #D96C9D;
+}
+
+.deskripsi {
+    flex: 1;
+}
+
+.deskripsi h3 {
+    margin-top: 0;
+}
+
+.deskripsi a {
+    color: #D96C9D;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.deskripsi a:hover {
+    color: #71805A;
+}
+
+.teknologi {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 20px;
+}
+
+.teknologi {
+    list-style: none;
+    background-color: #F9E1E8;
+    color: #71805A;
+    padding: 15px 20px;
+    border: 2px solid #a8b88a;
+    text-align: center;
+}
+
+.teknologi li:hover {
+    background-color: #D96C9D;
+    color: white;
+    transition: 0.3s;
+}
+
+.table-project {
+    width: 800px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 2px solid #a8b88a;
+}
+
+.table-project th,
+.table-project td {
     padding: 10px;
+    border: 1px solid #a8b88a;
+    text-align: center;
+}
+
+.table-project th {
+    background-color: #F9E1E8;
+    color: #5C5148;
+}
+
+Contact
+body {
+    background-color: #ecbfcc;
+    color: #5C5148;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #D96C9D;
+    font-size: 38px;
+    text-align: center;
+    margin: 30px;
+}
+
+nav {
+    background-color: #a8b88a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #D96C9D;
+}
+
+h2 {
+    color: #D96C9D;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+form {
+    width: 70%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    background-color: #FFF9F3;
+}
+
+.label {
+    color: #71805A;
+    padding: 8px;
+}
+
+.input {
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #a8b88a;
+    padding: 8px;
+}
+
+input,
+select,
+textarea {
+    padding: 6px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 15px;
+    background-color: #F9E1E8;
+    border: 1px solid #a8b88a;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #D96C9D;
+    color: white;
+}
+
+em {
+    color: #71805A;
+}
+
+a {
+    color: #D96C9D;
+}
+
+katalog
+body {
+    background-color: #ecbfcc;
+    color: #5C5148;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #D96C9D;
+    font-size: 38px;
+    text-align: center;
+    margin: 30px;
+}
+
+nav {
+    background-color: #a8b88a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #D96C9D;
+}
+
+h2 {
+    color: #D96C9D;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #FFF9F3;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #a8b88a;
+    text-align: center;
+}
+
+th {
+    background-color: #a8b88a;
+}
+
+td img {
+    width: 150px;
+    height: auto;
+}
+
+a {
+    color: #D96C9D;
+}
+
+a:hover {
+    color: #71805A;
 }

@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
-    <h1>My Projects</h1>
-    <nav>
+    <h1 id="judul-project">My Projects</h1>
+    <nav class="navbar">
       <a href="index.html">Home</a> |
       <a href="About.html">About</a> |
       <a href="Project.html">Project</a> |
@@ -15,20 +17,24 @@
     </nav>
     <hr />
 
+    <main class="project-chika">
     <h2>Daftar Project</h2>
     <p>
       Berikut adalah beberapa project sederhana yang pernah atau sedang saya
       kerjakan.
     </p>
 
+    <div class="foto-project">
     <img src="assets/Project.1.jpg" alt="Foto Project" width="350" />
-    <img src="assets/Project.2.jpg" alt="Foto Project" width="350" />
-    <img src="assets/Project.3.jpg" alt="Foto Project" width="350" />
-
+    <div class="deskripsi">
     <h3>Project 1: Website Biodata</h3>
-    <p>Website sederhana untuk menampilkan biodata pribadi menggunakan HTML.</p>
+    <p>Website sederhana untuk menampilkan biodata pribadi menggunakan HTML.</p> </div>
+</div>
 
-    <h3>Project 2: Web Graf Bipartite</h3>
+    <div class="foto-project">
+    <img src="assets/Project.2.jpg" alt="Foto Project" width="350" />
+    <div class="deskripsi">
+<h3>Project 2: Web Graf Bipartite</h3>
     <p>
       Website sederhana untuk membantu memecahkan soal tentang Graf Bipartite.
     </p>
@@ -40,8 +46,12 @@
       >
         Lihat di GitHub
       </a>
-    </p>
+    </p> </div>
+</div>
 
+    <div class="foto-project">
+    <img src="assets/Project.3.jpg" alt="Foto Project" width="350" />
+    <div class="deskripsi">
     <h3>Project 3: Game Seasons Gone</h3>
     <p>
       Game yang dibuat untuk membantu anak-anak dalam proses belajar dengan
@@ -53,20 +63,18 @@
       <a href="https://github.com/ceceaj/Project-UAS-2B.git" target="_blank">
         Lihat di GitHub
       </a>
-    </p>
+    </p> </div>
+    </div>
 
     <h2>Teknologi yang Digunakan</h2>
-    <ul>
+    <ul class="teknologi">
       <li>HTML</li>
       <li>GitHub</li>
       <li>Godot</li>
     </ul>
 
-    <h2>Ringkasan Project</h2>
-
-    <h2>Ringkasan Project</h2>
-
-    <table border="1" cellspacing="0" cellpadding="10">
+  <h2>Ringkasan Project</h2>
+    <table class="table-project">
       <tr>
         <th colspan="4">Ringkasan Portofolio Project</th>
       </tr>
@@ -103,13 +111,13 @@
         <td>Selesai</td>
       </tr>
     </table>
-
+  </main>
     <hr />
 
-    <p>
+    <p class="kembali">
       <a href="contact.html">Tertarik berdiskusi? Hubungi saya</a>
     </p>
 
-    <p>&copy; 2026 Nachika Hersamuli.</p>
+    <p class="link">&copy; 2026 Nachika Hersamuli.</p>
   </body>
 </html>
