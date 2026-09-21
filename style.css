@@ -1,9 +1,9 @@
 Home
 
 body {
-    background-color:#ecbfcc;
-    color:#5C5148;
-    font-family: arial, sans-serif;
+    background-color: #ecbfcc;
+    color: #5C5148;
+    font-family: Arial, sans-serif;
     margin: 0;
 }
 
@@ -11,19 +11,19 @@ h1, h2 {
     text-align: center;
 }
 
-#judul{
+#judul {
     color: #D96C9D;
     font-size: 38px;
     margin: 30px 10px;
 }
 
-p{
-    color:#5C5148;
+p {
+    color: #5C5148;
     font-size: 16px;
     line-height: 1.6;
 }
 
-.intro{
+.intro {
     text-align: center;
     font-size: 18px;
 }
@@ -37,7 +37,7 @@ p{
     background-color: #a8b88a;
 }
 
-.navbar a{
+.navbar a {
     color: white;
     font-size: 16px;
     text-decoration: none;
@@ -55,6 +55,7 @@ p{
     margin: 30px;
     padding: 35px;
     border: 2px solid #a8b88a;
+    box-sizing: border-box;
 }
 
 .foto-nana {
@@ -103,12 +104,13 @@ p{
 }
 
 .skill li {
+    list-style: none;
     background-color: #F9E1E8;
     color: #71805A;
     padding: 15px 20px;
     margin: 5px;
     border: 2px solid #a8b88a;
-    transition: 0.3s;
+    transition: background-color 0.3s;
 }
 
 .skill li:hover {
@@ -119,7 +121,7 @@ p{
 .content a {
     color: #D96C9D;
     font-weight: bold;
-    transition: 0.3s;
+    transition: color 0.3s;
 }
 
 .content a:hover {
@@ -132,22 +134,22 @@ p{
 }
 
 .link {
-   text-align: center;
+    text-align: center;
     font-size: 14px;
 }
 
 About
 
 body {
-    background-color:#ecbfcc;
-    color:#5C5148;
-    font-family: arial, sans-serif;
+    background-color: #ecbfcc;
+    color: #5C5148;
+    font-family: Arial, sans-serif;
     margin: 0;
 }
 
-#judul-about{
+#judul-about {
     color: #D96C9D;
-    margin: 38px;
+    font-size: 38px;
     text-align: center;
     margin: 30px 10px;
 }
@@ -158,6 +160,7 @@ body {
     margin: 30px;
     padding: 35px;
     border: 2px solid #a8b88a;
+    box-sizing: border-box;
 }
 
 .profil-chika h2 {
@@ -166,29 +169,30 @@ body {
     line-height: 1.6;
 }
 
-.profil-chika p{
+.profil-chika p {
     font-size: 16px;
     line-height: 1.6;
 }
 
-profil-chika table{
-    width: 200px;
-    margin: 20px;
+.profil-chika table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
 }
 
-data diri th,
-td {
+.profil-chika th,
+.profil-chika td {
     padding: 8px;
     border: 1px solid #a8b88a;
 }
 
-data diri th {
+.profil-chika th {
     background-color: #a8b88a;
 }
 
-.profil-chika li:hover{
+.profil-chika li:hover {
     color: #D96C9D;
-    transition: 0.3s;
+    transition: color 0.3s;
 }
 
 .hobi,
@@ -214,7 +218,7 @@ data diri th {
 .pendidikan li:hover {
     background-color: #D96C9D;
     color: white;
-    transition: 0.3s;
+    transition: background-color 0.3s;
 }
 
 .kembali {
@@ -230,9 +234,9 @@ data diri th {
 Project
 
 body {
-    background-color:#ecbfcc;
-    color:#5C5148;
-    font-family: arial, sans-serif;
+    background-color: #ecbfcc;
+    color: #5C5148;
+    font-family: Arial, sans-serif;
     margin: 0;
 }
 
@@ -249,6 +253,7 @@ body {
     margin: 30px;
     padding: 35px;
     border: 2px solid #a8b88a;
+    box-sizing: border-box;
 }
 
 .project-chika h2 {
@@ -313,7 +318,7 @@ body {
     margin: 20px;
 }
 
-.teknologi {
+.teknologi li {
     list-style: none;
     background-color: #F9E1E8;
     color: #71805A;
@@ -329,7 +334,7 @@ body {
 }
 
 .table-project {
-    width: 800px;
+    width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
     border: 2px solid #a8b88a;
@@ -347,7 +352,18 @@ body {
     color: #5C5148;
 }
 
+.kembali {
+    text-align: center;
+    font-size: 14px;
+}
+
+.link {
+    text-align: center;
+    font-size: 14px;
+}
+
 Contact
+
 body {
     background-color: #ecbfcc;
     color: #5C5148;
@@ -355,57 +371,74 @@ body {
     margin: 0;
 }
 
-h1 {
+#judul-contact {
     color: #D96C9D;
     font-size: 38px;
     text-align: center;
     margin: 30px;
 }
 
-nav {
+.navbar {
+    display: flex;
+    justify-content: center;
     background-color: #a8b88a;
-    text-align: center;
+    align-items: center;
     padding: 15px;
 }
 
-nav a {
+.navbar a {
     color: white;
+    font-size: 16px;
     text-decoration: none;
     margin: 10px;
+    transition: color 0.3s;
 }
 
-nav a:hover {
+.navbar a:hover {
     color: #D96C9D;
 }
 
-h2 {
+.contact-chika {
+    background-color: #FFF9F3;
+    width: 800px;
+    margin: 30px auto;
+    padding: 35px;
+    border: 2px solid #a8b88a;
+}
+
+.contact-chika h2 {
     color: #D96C9D;
+    font-size: 25px;
     text-align: center;
 }
 
-p {
+.contact-chika p {
     font-size: 16px;
     line-height: 1.6;
 }
 
-form {
+.contact-table {
     width: 70%;
-    margin: 20px auto;
+    margin: 20px;
+    background-color: #FFF9F3;
+    border-collapse: collapse;
 }
 
-table {
-    width: 100%;
-    background-color: #FFF9F3;
+.contact-table td {
+    border: 1px solid #a8b88a;
+    padding: 8px;
 }
 
 .label {
     color: #71805A;
-    padding: 8px;
+    background-color: #F9E1E8;
+    width: 35%;
 }
 
 .input {
     padding: 8px;
 }
+
 
 td {
     border: 1px solid #a8b88a;
@@ -416,6 +449,16 @@ input,
 select,
 textarea {
     padding: 6px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+}
+
+.form-button {
+    text-align: center;
 }
 
 input[type="submit"],
@@ -432,6 +475,25 @@ input[type="reset"]:hover {
     color: white;
 }
 
+.contact-chika a {
+    color: #D96C9D;
+    transition: color 0.3s;
+}
+
+.contact-chika a:hover {
+    color: #71805A;
+}
+
+.kembali {
+    text-align: center;
+    font-size: 14px;
+}
+
+.link {
+    text-align: center;
+    font-size: 14px;
+}
+
 em {
     color: #71805A;
 }
@@ -440,7 +502,8 @@ a {
     color: #D96C9D;
 }
 
-katalog
+Katalog
+
 body {
     background-color: #ecbfcc;
     color: #5C5148;
@@ -452,28 +515,34 @@ h1 {
     color: #D96C9D;
     font-size: 38px;
     text-align: center;
-    margin: 30px;
+    margin: 30px 10px;
 }
 
-nav {
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #a8b88a;
     text-align: center;
     padding: 15px;
 }
 
-nav a {
+.navbar a {
     color: white;
+    font-size: 16px;
     text-decoration: none;
     margin: 10px;
+    transition: color 0.3s;
 }
 
-nav a:hover {
+.navbar a:hover {
     color: #D96C9D;
 }
 
 h2 {
     color: #D96C9D;
     text-align: center;
+    font-size: 25px;
 }
 
 p {
@@ -481,33 +550,36 @@ p {
     line-height: 1.6;
 }
 
-table {
+.katalog-table {
     width: 80%;
     margin: 20px auto;
     background-color: #FFF9F3;
     border-collapse: collapse;
 }
 
-th,
-td {
+.katalog-table th,
+.katalog-table td {
     padding: 10px;
     border: 1px solid #a8b88a;
     text-align: center;
 }
 
-th {
+.katalog-table th {
     background-color: #a8b88a;
+    color: white;
 }
 
-td img {
+.katalog-table img {
     width: 150px;
     height: auto;
 }
 
-a {
-    color: #D96C9D;
+.kembali {
+    text-align: center;
+    font-size: 14px;
 }
 
-a:hover {
-    color: #71805A;
+.link {
+    text-align: center;
+    font-size: 14px;
 }
